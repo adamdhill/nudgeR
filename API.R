@@ -1,7 +1,9 @@
 library(jsonlite)
 library(httr)
 
-
+#Set consumer_key and consumer_secret as environmental variables
+consumer_key <- "...";
+consumer_secret <- "...";
 
 
 #Auth
