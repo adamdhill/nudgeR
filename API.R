@@ -3,7 +3,12 @@ library(devtools)
  
 #devtools::install_github("joyofdata/RTwitterAPI")
 library(RTwitterAPI)
- 
+
+#Set authentication tokens as environmental variables
+ "oauth_consumer_key" = "[...]"
+ "oauth_token" = "[...]"
+ "consumer_secret" = "[...]"
+ "oauth_token_secret"     = "[...]"
  
 params <- c(
   "oauth_consumer_key"     = "fzbcjBRjd48TJifhLAITlPf6c", 
@@ -27,6 +32,3 @@ result <- RTwitterAPI::twitter_api_call(url, query, params)
 library(jsonlite)
 library(httr)
 
-#Set consumer_key and consumer_secret as environmental variables
-consumer_key <- "...";
-consumer_secret <- "...";
