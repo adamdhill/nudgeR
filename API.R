@@ -1,8 +1,6 @@
-#install.packages("devtools")
 library(devtools)
- 
-#devtools::install_github("joyofdata/RTwitterAPI")
 library(RTwitterAPI)
+library(jsonlite)
 
 #Set authentication tokens as environmental variables
  "oauth_consumer_key" = "[...]"
