@@ -6,4 +6,4 @@ Approaches to applying pro-social nudges to variety of situations, as alternativ
 
 #Overview 
 
-For some set of behaviors, Y, we can raise the cost of any member of that set.
+Applicable to environments where, for some set of behaviors, *Y*, the costs of behaviors in that set can be predictably increased. 
